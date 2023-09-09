@@ -1,8 +1,8 @@
 const config = {};
 
-config.host = process.env.HOST || "https://techtalk09092023.documents.azure.com:443/";
+config.host = process.env.HOST || "";
 config.authKey =
-  process.env.AUTH_KEY || "4s72OeWAhi5V1DTXLLmhbLBRJHIONI6kHyWI4dSstkEra9VlCWloLuj3pfy3pDGKKYgEiv7PjWk5ACDbAGxANg==";
+  process.env.AUTH_KEY || "";
 config.databaseId = "ToDoList";
 config.containerId = "Items";
 
